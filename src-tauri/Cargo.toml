@@ -23,7 +23,7 @@ tempfile = "3"
 sha2 = "0.10"
 hex = "0.4"
 walkdir = "2"
-infer = "0.19"
+infer = "0.22"
 fs2 = "0.4"
 url = "2"
 zip = { version = "2", default-features = false, features = ["deflate"] }
