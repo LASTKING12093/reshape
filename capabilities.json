@@ -1,0 +1,2090 @@
+[
+  {
+    "input": "png",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "jpg",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "jpeg",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "webp",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "avif",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "heic",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "heif",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "bmp",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "tiff",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "tif",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "gif",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "ico",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "svg",
+    "outputs": [
+      "png",
+      "jpg",
+      "webp",
+      "avif",
+      "bmp",
+      "tiff",
+      "gif",
+      "ico",
+      "pdf"
+    ],
+    "engine": "imagemagick",
+    "category": "image",
+    "losslessOutputs": [
+      "png",
+      "webp",
+      "bmp",
+      "tiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "quality",
+      "resize",
+      "dpi",
+      "alpha",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "wav",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "flac",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "mp3",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "aac",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "m4a",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "alac",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "ogg",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "opus",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "aiff",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "wma",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "ac3",
+    "outputs": [
+      "wav",
+      "flac",
+      "mp3",
+      "aac",
+      "m4a",
+      "ogg",
+      "opus",
+      "aiff",
+      "wma",
+      "ac3"
+    ],
+    "engine": "ffmpeg",
+    "category": "audio",
+    "losslessOutputs": [
+      "wav",
+      "flac",
+      "aiff"
+    ],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "bitrate",
+      "sampleRate",
+      "channels",
+      "bitDepth",
+      "normalize",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "mp4",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "mov",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "mkv",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "avi",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "webm",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "m4v",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "ts",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "mts",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "wmv",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "flv",
+    "outputs": [
+      "mp4",
+      "mov",
+      "mkv",
+      "avi",
+      "webm",
+      "mp3",
+      "wav",
+      "flac",
+      "m4a",
+      "opus"
+    ],
+    "engine": "ffmpeg",
+    "category": "video",
+    "losslessOutputs": [],
+    "targetSize": true,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [
+      "codec",
+      "crf",
+      "bitrate",
+      "resolution",
+      "fps",
+      "subtitles",
+      "chapters",
+      "metadata"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "doc",
+    "outputs": [
+      "docx",
+      "odt",
+      "rtf",
+      "txt",
+      "html",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "document",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "docx",
+    "outputs": [
+      "docx",
+      "odt",
+      "rtf",
+      "txt",
+      "html",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "document",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "odt",
+    "outputs": [
+      "docx",
+      "odt",
+      "rtf",
+      "txt",
+      "html",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "document",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "rtf",
+    "outputs": [
+      "docx",
+      "odt",
+      "rtf",
+      "txt",
+      "html",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "document",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "xls",
+    "outputs": [
+      "xlsx",
+      "ods",
+      "csv",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "spreadsheet",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "xlsx",
+    "outputs": [
+      "xlsx",
+      "ods",
+      "csv",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "spreadsheet",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "ods",
+    "outputs": [
+      "xlsx",
+      "ods",
+      "csv",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "spreadsheet",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "csv",
+    "outputs": [
+      "xlsx",
+      "ods",
+      "csv",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "spreadsheet",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "ppt",
+    "outputs": [
+      "pptx",
+      "odp",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "presentation",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "pptx",
+    "outputs": [
+      "pptx",
+      "odp",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "presentation",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "odp",
+    "outputs": [
+      "pptx",
+      "odp",
+      "pdf"
+    ],
+    "engine": "libreoffice",
+    "category": "presentation",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "md",
+    "outputs": [
+      "html",
+      "md",
+      "docx",
+      "odt",
+      "txt"
+    ],
+    "engine": "pandoc",
+    "category": "text",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "html",
+    "outputs": [
+      "html",
+      "md",
+      "docx",
+      "odt",
+      "txt"
+    ],
+    "engine": "pandoc",
+    "category": "text",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "txt",
+    "outputs": [
+      "html",
+      "md",
+      "docx",
+      "odt",
+      "txt"
+    ],
+    "engine": "pandoc",
+    "category": "text",
+    "losslessOutputs": [],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "may-change",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "pdf",
+    "outputs": [
+      "pdf",
+      "png",
+      "jpg"
+    ],
+    "engine": "pdf",
+    "category": "pdf",
+    "losslessOutputs": [
+      "pdf"
+    ],
+    "targetSize": false,
+    "metadata": true,
+    "layout": "preserved",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "zip",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "7z",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "tar",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "tar.gz",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "gz",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "bz2",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "xz",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "archive",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [
+      "level",
+      "password"
+    ],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  },
+  {
+    "input": "binary",
+    "outputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "engine": "7zip",
+    "category": "file",
+    "losslessOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ],
+    "targetSize": false,
+    "metadata": false,
+    "layout": "preserved",
+    "advanced": [],
+    "archiveOutputs": [
+      "zip",
+      "7z",
+      "tar",
+      "tar.gz",
+      "gz",
+      "bz2",
+      "xz"
+    ]
+  }
+]

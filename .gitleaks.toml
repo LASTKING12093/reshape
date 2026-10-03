@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Pinned SHA-256 values of authenticated extracted engine files"
+condition = "AND"
+paths = ['''(^|/)installer/engine-files\.json$''']
+regexTarget = "line"
+regexes = ['''^\s*"[^"]+": "[0-9a-f]{64}",?\s*$''']

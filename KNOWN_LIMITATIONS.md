@@ -1,0 +1,13 @@
+# Limitações verificadas — Reshape 2.0
+
+- Estimativas CRF, compactação e PDF são faixas heurísticas amplas. Vídeo não recebe amostragem de encode nesta edição. Imagens estáticas até 40 MB podem receber medição real limitada a 12 segundos; áudio usa duração/bitrate ou PCM. Tamanho alvo não é exato byte a byte.
+- Comparação de vídeo usa quadros sincronizados por instante, sem reprodução simultânea. Não há player A/B de áudio. Prévia imagem/PDF limitada a 1600 px; animações mostram o primeiro quadro. Entre volumes sem hard links, prévias de fontes acima de 256 MB são recusadas para evitar cópias grandes.
+- Compressão HDR bloqueada para impedir redução silenciosa. Remux MKV preserva fluxos compatíveis. GPU suporta H.264 NVENC/QSV/AMF com detecção por encode real e fallback CPU; HEVC/AV1 GPU não expostos.
+- qpdf preserva texto/vetores, otimiza estrutura e recomprime imagens elegíveis. Não há downsampling DPI, OCR ou otimização de fontes. Qualidade JPEG não garante redução em PDF. Documentos encriptados/assinados não têm fluxo dedicado; regravação pode invalidar assinaturas.
+- Saídas seguem o registro local. HEIC/HEIF são entradas, sem saída oferecida; ALAC não é saída. Não há vetorização raster. Office usa padrões do LibreOffice e pode alterar layout.
+- Metadados controlados em mídia/imagens; sem remoção uniforme em PDF/Office/compactados. Lossless significa conteúdo decodificado validado, não igualdade binária nem todos os metadados. WebP limitado a 8 bits.
+- Até 1.000 arquivos por seleção. Vídeos executam um por vez. Sem perfil automático por memória disponível. Volumes distintos exigem cópia por streaming; no mesmo volume usam-se hard links temporários. Margem de disco conservadora não cobre toda expansão possível.
+- Arquivos publicados atomicamente quando o filesystem permite. Diretórios (páginas PDF/extrações) são copiados em pasta exclusiva, removida em falha. Política fixa de preservar e numerar; não há sobrescrita.
+- Jobs interrompidos recuperados pausados e recomeçam do início. Senhas não persistem; operações protegidas precisam ser configuradas novamente. Presets não guardam senhas, caminhos ou arquivos extras.
+- Sem menu registrado do Explorer, notificações do sistema ou atualização automática. Importação por caminhos colados ou argumento --open. Alguns avisos técnicos/diagnósticos permanecem em português/inglês independentemente do idioma escolhido.
+- Setup sem assinatura digital; não validado em todas as versões de Windows em VMs limpas. O instalador público online baixa motores diretamente dos fornecedores; pacotes offline com motores GPL não são distribuídos pelo projeto. Veja THIRD_PARTY_LICENSES.md. Nenhuma licença do código original foi imposta ao proprietário.

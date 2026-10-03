@@ -1,0 +1,36 @@
+name: Bug report
+description: Something didn't work as expected.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please use synthetic examples. Do not upload private/sensitive files, passwords, or logs containing personal paths. Report security vulnerabilities privately."
+  - type: input
+    id: version
+    attributes:
+      label: Reshape and Windows versions
+      placeholder: Reshape 2.0.3, Windows 11
+    validations:
+      required: true
+  - type: input
+    id: formats
+    attributes:
+      label: Input type and output target
+      placeholder: FLAC to MP3, Balanced compression
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Include settings and whether it happens every time.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Optional error message or sanitized logs

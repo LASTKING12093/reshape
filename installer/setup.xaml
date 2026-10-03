@@ -1,0 +1,38 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="820" Height="560" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Background="#000000" Foreground="#F5F5F5" FontFamily="Segoe UI" Title="Reshape Setup">
+ <Window.Resources>
+  <Style TargetType="Button"><Setter Property="Cursor" Value="Hand"/><Setter Property="Foreground" Value="#F5F5F5"/><Setter Property="Background" Value="#171717"/><Setter Property="Padding" Value="18,12"/><Setter Property="FontSize" Value="13"/><Setter Property="BorderThickness" Value="1"/><Setter Property="BorderBrush" Value="#303030"/><Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button"><Border x:Name="Surface" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10" Padding="{TemplateBinding Padding}"><ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/></Border><ControlTemplate.Triggers><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Surface" Property="Opacity" Value="0.8"/></Trigger><Trigger Property="IsPressed" Value="True"><Setter TargetName="Surface" Property="RenderTransform"><Setter.Value><TranslateTransform Y="1"/></Setter.Value></Setter></Trigger><Trigger Property="IsEnabled" Value="False"><Setter TargetName="Surface" Property="Opacity" Value="0.4"/></Trigger><Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="Surface" Property="BorderBrush" Value="#FF928A"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter></Style>
+  <Style TargetType="TextBox"><Setter Property="Background" Value="#121212"/><Setter Property="Foreground" Value="#EEEEEE"/><Setter Property="CaretBrush" Value="White"/><Setter Property="BorderBrush" Value="#363636"/><Setter Property="Padding" Value="12,9"/><Setter Property="FontSize" Value="12"/></Style>
+ </Window.Resources>
+ <Border BorderBrush="#292929" BorderThickness="1" CornerRadius="12">
+  <Grid Margin="32,20,32,28">
+   <Grid.RowDefinitions><RowDefinition Height="48"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+   <Grid x:Name="TitleArea" Background="Transparent">
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><Image x:Name="SmallLogo" Width="32" Height="32" Margin="0,0,10,0"/><TextBlock Text="reshape" FontWeight="SemiBold" FontSize="24" VerticalAlignment="Center"/><Border BorderBrush="#303030" BorderThickness="1" CornerRadius="4" Margin="12,0,0,0" Padding="6,3" VerticalAlignment="Center"><TextBlock Text="SETUP" Foreground="#999999" FontSize="9"/></Border></StackPanel>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+     <Button x:Name="Language" Content="English  /  PT" Margin="0,0,16,0" Padding="12,7" Background="#080808"/>
+     <Button x:Name="Minimize" Content="—" Width="32" Height="30" Padding="0" BorderThickness="0" Background="Transparent"/>
+     <Button x:Name="Close" Content="×" FontSize="22" Width="32" Height="30" Padding="0" BorderThickness="0" Background="Transparent"/>
+    </StackPanel>
+   </Grid>
+   <Grid Grid.Row="1" x:Name="Body" Margin="0,35,0,24">
+    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="180"/></Grid.ColumnDefinitions>
+    <StackPanel VerticalAlignment="Center" Margin="8,0,0,0">
+     <TextBlock x:Name="Eyebrow" Text="LOCAL BY DESIGN" Foreground="#FF9A92" FontSize="10" FontWeight="SemiBold" Margin="0,0,0,18"/>
+     <TextBlock x:Name="Headline" Text="A little space.&#10;A lot of possibility." FontSize="36" FontWeight="SemiBold" LineHeight="43"/>
+     <TextBlock x:Name="Description" Text="Convert and compress your files.&#10;Everything stays on your computer." Foreground="#AAAAAA" FontSize="14" LineHeight="23" Margin="0,20,0,0" TextWrapping="Wrap" MaxWidth="470" HorizontalAlignment="Left"/>
+    </StackPanel>
+    <Border Grid.Column="1" Width="142" Height="156" Background="#0D0D0D" BorderBrush="#272727" BorderThickness="1" CornerRadius="24" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5"><Border.RenderTransform><RotateTransform Angle="-7"/></Border.RenderTransform><Image x:Name="HeroLogo" Width="94" Height="94"/></Border>
+   </Grid>
+   <StackPanel Grid.Row="2"><TextBlock x:Name="DownloadSize" FontSize="11" Foreground="#999999" Margin="0,0,0,12"/>
+    <Border x:Name="LocationPanel" Background="#0C0C0C" BorderBrush="#242424" BorderThickness="1" CornerRadius="12" Padding="16,13" Margin="0,0,0,22">
+     <StackPanel>
+      <DockPanel><Button x:Name="Change" DockPanel.Dock="Right" Content="Change" Padding="12,6" Background="Transparent"/><StackPanel><TextBlock x:Name="LocationLabel" Text="INSTALL LOCATION" FontSize="9" Foreground="#8F8F8F" Margin="0,0,0,6"/><TextBlock x:Name="LocationText" FontSize="12" Foreground="#D0D0D0" TextTrimming="CharacterEllipsis" MaxWidth="575" HorizontalAlignment="Left"/></StackPanel></DockPanel>
+      <TextBox x:Name="LocationInput" Visibility="Collapsed" Margin="0,12,0,0"/>
+     </StackPanel>
+    </Border>
+    <StackPanel x:Name="ProgressPanel" Visibility="Collapsed" Margin="0,0,0,22"><TextBlock x:Name="Status" FontSize="13" Margin="0,0,0,12"/><ProgressBar x:Name="Progress" Height="4" Foreground="#FF928A" Background="#202020" BorderThickness="0" Minimum="0" Maximum="100"/><TextBlock x:Name="Detail" Foreground="#909090" FontSize="12" Margin="0,10,0,0" TextWrapping="Wrap"/></StackPanel>
+    <Button x:Name="CancelWork" Content="Cancel / Cancelar" Visibility="Collapsed" HorizontalAlignment="Right" Margin="0,0,0,8"/><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><TextBlock x:Name="Footer" Text="Windows 64-bit · Works offline" Foreground="#A0A0A0" FontSize="12"/><TextBlock x:Name="Version" Text="Reshape 2.0.4" Foreground="#6F6F6F" FontSize="11" Margin="0,5,0,0"/></StackPanel><Button Grid.Column="1" x:Name="Primary" Content="Install Reshape  →" Width="202" Height="48" Foreground="#080808" Background="#F4F4F4" BorderBrush="#F4F4F4" FontWeight="SemiBold" FontSize="14"/></Grid>
+   </StackPanel>
+  </Grid>
+ </Border>
+</Window>

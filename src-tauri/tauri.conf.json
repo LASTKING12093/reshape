@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Reshape",
+  "mainBinaryName": "reshape",
+  "version": "2.0.4",
+  "identifier": "com.forma.converter",
+  "build": {
+    "beforeDevCommand": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+    "devUrl": "http://127.0.0.1:1424",
+    "beforeBuildCommand": "node node_modules/typescript/bin/tsc && node node_modules/vite/bin/vite.js build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Reshape",
+        "width": 1180,
+        "height": 820,
+        "minWidth": 800,
+        "minHeight": 600
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' asset: http://asset.localhost data:; style-src 'self' 'unsafe-inline'; connect-src ipc: http://ipc.localhost; media-src 'self' data: blob:"
+    }
+  },
+  "bundle": {
+    "publisher": "Reshape",
+    "shortDescription": "Convert and compress files. Entirely on your computer.",
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "resources": [
+      "legal/**/*",
+      "icons/reshape-app.ico"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "skip"
+      },
+      "nsis": {
+        "template": "installer-template.nsi",
+        "installerHooks": "installer-hooks.nsh",
+        "installerIcon": "icons/icon.ico",
+        "headerImage": "icons/installer-header.bmp",
+        "sidebarImage": "icons/installer-sidebar.bmp",
+        "compression": "zlib",
+        "installMode": "currentUser",
+        "languages": [
+          "English",
+          "PortugueseBR"
+        ],
+        "displayLanguageSelector": true
+      }
+    },
+    "icon": [
+      "icons/reshape-app.ico"
+    ]
+  }
+}

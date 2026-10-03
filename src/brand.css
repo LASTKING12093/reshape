@@ -1,0 +1,231 @@
+/* OLED black, neutral surfaces and restrained coral branding. */
+:root {
+  --switch-on: #f0f0f0;
+}
+::selection {
+  background: #555;
+  color: white;
+}
+.app-shell {
+  background: var(--bg);
+}
+.wordmark {
+  gap: 10px;
+}
+.wordmark > span {
+  font-weight: 620;
+  letter-spacing: -1.3px;
+}
+.wordmark small {
+  color: var(--quiet);
+}
+.workspace {
+  box-shadow: 0 24px 80px #0003;
+}
+.workspace:not(.has-files) {
+  background: var(--surface);
+}
+.empty {
+  min-height: 560px;
+  padding: 42px 28px;
+}
+.brand-atmosphere {
+  display: none;
+}
+.empty-symbol {
+  width: 112px;
+  height: 128px;
+  margin-bottom: 30px;
+  background: linear-gradient(145deg, var(--object-hi), var(--object));
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow:
+    0 20px 40px #0003,
+    inset 0 1px 0 #ffffff0d;
+}
+.mark.large {
+  width: 76px;
+  height: 76px;
+}
+.empty h1 {
+  font-size: clamp(32px, 3.6vw, 42px);
+  line-height: 1.12;
+  letter-spacing: -1.6px;
+}
+.empty p {
+  font-size: 14px;
+}
+.empty .primary {
+  min-height: 46px;
+  padding-inline: 24px;
+}
+.selection,
+.preset-selection {
+  background: var(--selected);
+  box-shadow:
+    inset 0 0 0 1px #ffffff16,
+    0 2px 8px #0002;
+}
+.mode-switch {
+  padding: 5px;
+}
+.mode-switch button {
+  height: 35px;
+}
+.presets > button {
+  transition: color 0.18s ease;
+}
+.presets > button:hover {
+  color: var(--text);
+}
+.compression-kind button,
+.formats button {
+  transition:
+    color 0.18s,
+    background 0.18s,
+    border-color 0.18s;
+}
+.compression-kind button.selected {
+  background: var(--selected);
+  color: var(--text);
+}
+.formats button.chosen {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+.count {
+  color: var(--bg);
+}
+.switch {
+  width: 40px;
+  height: 23px;
+  border-radius: 14px;
+  transition: none;
+  display: block;
+  box-shadow: inset 0 1px 3px #0002;
+}
+.switch::after {
+  content: none;
+}
+.toggle input:checked + .switch {
+  background: var(--switch-on);
+}
+.switch-thumb {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 3px;
+  top: 3px;
+  background: #171717;
+  color: white;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px #0004;
+}
+.toggle input:not(:checked) + .switch .switch-thumb {
+  background: #b0b0b0;
+}
+.switch-thumb > span {
+  display: flex;
+}
+.toggle {
+  min-height: 40px;
+}
+.toggle:has(input:checked) {
+  color: var(--text);
+}
+.scrim {
+  backdrop-filter: blur(8px);
+  background: #000a;
+}
+.modal {
+  box-shadow:
+    0 32px 100px #0009,
+    0 1px 0 #ffffff0b inset;
+}
+.picker-menu {
+  transform-origin: top right;
+  box-shadow: 0 14px 35px #0005;
+}
+.picker-menu button {
+  transition: background 0.14s ease;
+}
+.process-track > div {
+  background: var(--text);
+}
+.plan-note {
+  font-size: 12px;
+  line-height: 1.65;
+}
+.estimate {
+  margin: 22px 0 18px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--input);
+  min-height: 136px;
+}
+.estimate > div:first-child {
+  min-width: 0;
+}
+.estimate p {
+  line-height: 1.6;
+}
+.estimate-saving {
+  flex-shrink: 0;
+}
+.size-line {
+  white-space: nowrap;
+}
+.size-line strong {
+  font-weight: 580;
+}
+.estimate .calculating {
+  font-size: 18px;
+  letter-spacing: -0.3px;
+}
+.destination {
+  padding-block: 2px 14px;
+}
+.start-button {
+  min-height: 48px;
+}
+.file-focus h1 {
+  font-weight: 560;
+}
+.file-preview {
+  box-shadow: 0 16px 32px #0004;
+}
+@media (min-width: 900px) {
+  .has-files {
+    grid-template-columns: minmax(260px, 0.78fr) minmax(440px, 1.22fr);
+  }
+  .has-files .file-area {
+    align-self: start;
+    min-height: 440px;
+  }
+  .has-files .file-focus {
+    padding: 32px 24px;
+  }
+  .has-files .file-preview {
+    width: 192px;
+    height: 156px;
+  }
+  .has-files .presets strong {
+    font-size: 12px;
+  }
+  .has-files .presets small {
+    font-size: 11px;
+  }
+  .has-files .size-line {
+    gap: 12px;
+  }
+  .has-files .size-line strong {
+    font-size: 27px;
+  }
+  .has-files .estimate-saving strong {
+    font-size: 24px;
+  }
+}

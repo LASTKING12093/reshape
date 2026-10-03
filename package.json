@@ -1,0 +1,32 @@
+{
+  "name": "reshape",
+  "version": "2.0.4",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "lint": "tsc --noEmit",
+    "test": "node --test scripts/registry.test.mjs && cargo test --manifest-path src-tauri/Cargo.toml",
+    "tauri": "tauri",
+    "package": "powershell -ExecutionPolicy Bypass -File scripts/build-release.ps1"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "lucide-react": "^0.468",
+    "motion": "^14.0.0",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4",
+    "prettier": "^3.9.9",
+    "typescript": "^5.7",
+    "vite": "^6"
+  }
+}
