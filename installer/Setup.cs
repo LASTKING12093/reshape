@@ -187,7 +187,7 @@ class Setup {
             if(!EngineSetup.HasWebView())throw new InvalidOperationException("WebView2 could not be verified. Retry setup.");
             using(var key=Registry.CurrentUser.CreateSubKey(@"Software\forma\Forma")) key.SetValue("Installer Language",portuguese ? 1046 : 1033,RegistryValueKind.DWord);
             coreStarted=true;
-            using(var engine=Process.Start(new ProcessStartInfo(payload,"/S /UPDATE /D="+path) { UseShellExecute=false,CreateNoWindow=true,WindowStyle=ProcessWindowStyle.Hidden })) {
+            using(var engine=Process.Start(new ProcessStartInfo(payload,"/S "+(File.Exists(Path.Combine(coreBackup,"reshape.exe")) || File.Exists(Path.Combine(coreBackup,"forma.exe")) ? "/UPDATE " : "")+"/D="+path) { UseShellExecute=false,CreateNoWindow=true,WindowStyle=ProcessWindowStyle.Hidden })) {
                 engine.WaitForExit();if(engine.ExitCode!=0)throw new InvalidOperationException(L("Installation failed (code ","A instalação falhou (código ")+engine.ExitCode+L("). Close Reshape and try again.","). Feche o Reshape e tente novamente."));
             }
             report(new SetupProgress("Finishing","Reshape"));
@@ -206,3 +206,4 @@ class Setup {
         }
     }
 }
+

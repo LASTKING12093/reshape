@@ -1,6 +1,6 @@
 # Online release audit — 2.0.4 candidate
 
-Status: **FINAL RELEASE CHECKS** (2026-10-03).
+Status: **CLEARED FOR PUBLICATION** (2026-10-03).
 
 The online distribution choice is approved. No further installer-choice approval is required. No repository or release has been published by this work.
 
@@ -59,3 +59,9 @@ A fresh silent installation completed with exit code 0. The installed production
 The installer preview was inspected earlier. Further visual progress inspection was unavailable because OS automation rejected focus restoration after user input (“user input was detected”). This is an automation limitation, not an installation failure. Automated tests validate byte progress, cancellation, SHA-256, retry and cleanup. The release owner explicitly accepted this visual limitation.
 
 The release does not claim testing on every clean Windows VM. The Reshape installer is unsigned. No automatic app updater is provided. Known limitations remain documented separately. Publication and download-back results will be recorded after the release exists.
+
+## Final publication gate
+
+Production build and payload inspection passed. The final installer supports fresh installation and verified-engine reuse; silent reinstallation completed with exit code 0. Source privacy scan: 132 files, zero findings. Gitleaks source and complete Git history scans: zero findings. Historical blobs also passed the personal-path/machine-name scan. The full dependency notices include upstream texts for packages without packaged license files. No known blocking vulnerability, secret, private file, unauthenticated engine or redistribution issue was identified for this online artifact.
+
+Only the Reshape bootstrapper and its checksum are approved release assets; offline engine bundles remain excluded. The release owner accepted the visual automation limitation. GitHub CI and download-back validation follow publication and are recorded separately.
